@@ -1,0 +1,33 @@
+.list li {
+  margin-right: 10px;
+}
+.list li a {
+  color: aliceblue;
+  padding: 5px 7px;
+}
+
+.listFree a {
+  background-color: rgba(240, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.list li a:hover {
+  background-color: rgba(240, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+/* Header.module.css */
+.rotateIcon {
+  margin: 5px 0 0 5px;
+  font-size: 8px;
+  transform: rotate(90deg);
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.rotateIcon:hover {
+  margin: 5px 0 0 5px;
+  font-size: 8px;
+  transform: rotate(180deg);
+  display: inline-block;
+}
